@@ -1,4 +1,3 @@
-document.getElementById("question-txt").style.opacity = 0;
 window.onscroll = function () {
 
 	//Navbar
@@ -6,9 +5,7 @@ window.onscroll = function () {
    if (document.documentElement.scrollTop > 15) {
     document.getElementById("nav-main").style.opacity = 0;
     document.getElementById("nav-main").style.transition = "0.95s";
-    document.getElementById("question-txt").style.opacity = 1;
-    document.getElementById("question-txt").style.transition = "1s";
-    document.getElementById("head-main").style.borderRadius = "0px";
+     document.getElementById("head-main").style.borderRadius = "0px";
     document.getElementById("arg0").style.transform = "scale(1)";
     document.getElementById("arg2").style.transform = "scale(1)";
     document.getElementById("arg3").style.transform = "scale(1)";
